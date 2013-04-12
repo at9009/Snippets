@@ -1,0 +1,816 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>40378CFC-90EB-4498-B017-9E86CC2AE28D</UUID>
+        <nextObjectID>263</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>407</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Code</key>
+                        <data>
+		nZPpcpZUWVBqlvxQ3PBQyAoWJDj9WKPRkMjuKTZ3FV4=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		TIsmrKEyB/N6pmA5x4IqpGVLVDI28g7Csl5HYw/vK9g=
+		</data>
+                        <key>Group</key>
+                        <data>
+		D4ZHzcYYuV2gH5Mqy+Uh5gCiq92cXY+fHSUKs7Iw92A=
+		</data>
+                        <key>IndexManager</key>
+                        <data>
+		FvZrkdrNisrKTY6fCTWFM85lJSwJ4h/qn1iArMO1fO0=
+		</data>
+                        <key>License</key>
+                        <data>
+		LM/KFAKrx/JDLvd51V2AJ+1QuzbpRXWNNtUX+152OE0=
+		</data>
+                        <key>MenuBarManager</key>
+                        <data>
+		LUfJSHYHYIZr/GH0qwVSNT+irurWMLS7lFwpzGqMl0s=
+		</data>
+                        <key>Search</key>
+                        <data>
+		aQ7OACSos2kU+5OWlmlVQx1fg9ayGtzPiD10tn6em1M=
+		</data>
+                        <key>Share</key>
+                        <data>
+		Cy9fzFKprL09uBr5YuFiMHUzjoLcnKsxxScSBJ22WqA=
+		</data>
+                        <key>SidebarItem</key>
+                        <data>
+		SAPPes99PMbMcop/rx8hD5212XV1NjXdRj5SNUTnh30=
+		</data>
+                        <key>SmartGroup</key>
+                        <data>
+		4oShHBiqvIBmA9CkjPa2ev5cxXp5oIklrpd8906uFwQ=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		Geg0Krs7oxs/zUEftL5wupxkfoiNQHXnueZeFfjGSUM=
+		</data>
+                        <key>Storage</key>
+                        <data>
+		6e36B28CVuFRtzlDic/8COGa1Cx4x5rwdSY7Ry4y1q0=
+		</data>
+                        <key>SyncDriverState</key>
+                        <data>
+		RZPmnvclycOFvOSJkEQWg2ixwpY9RZggjc2ppncijAw=
+		</data>
+                        <key>SyntaxHighlight</key>
+                        <data>
+		pU7pNUb8Lh6K/mDIX/wSdvcxysJnF654OBk7A9V9z1o=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		HVmiCBjVVuS6AZ5mwoRy3FaS4qzSVxc38ms7t3JuCts=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="INDEXMANAGER" id="z127">
+        <attribute name="synclabel" type="string">9D02B2A5-F0EC-4A94-A782-11B3C8C95B4F-82451-0001128FFDE5409E</attribute>
+        <attribute name="lastindex" type="int64">6</attribute>
+    </object>
+    <object type="LICENSE" id="z128">
+        <attribute name="label" type="string">gplv3</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LICENSE" id="z129">
+        <attribute name="label" type="string">freebsd</attribute>
+        <attribute name="ishidden" type="bool">1</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LICENSE" id="z130">
+        <attribute name="label" type="string">mit</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LICENSE" id="z131">
+        <attribute name="label" type="string">apache</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LICENSE" id="z132">
+        <attribute name="label" type="string">gpl</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="LICENSE" id="z133">
+        <attribute name="label" type="string">bsd</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SIDEBARITEM" id="z134">
+        <attribute name="synclabel" type="string">SAHighlightsSidebarItemLabel</attribute>
+        <attribute name="label" type="string">SAHighlightsSidebarItemLabel</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">2</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z249 z150 z153 z244 z162 z236 z144 z151 z141 z235 z147 z140 z159 z160 z247 z142 z154 z240 z145 z149 z139 z237 z243 z155 z161 z146 z152"></relationship>
+    </object>
+    <object type="SIDEBARITEM" id="z135">
+        <attribute name="synclabel" type="string">SASpacerSidebarItemLabel</attribute>
+        <attribute name="label" type="string">SASpacerSidebarItemLabel</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">3</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SIDEBARITEM" id="z136">
+        <attribute name="synclabel" type="string">SALibrarySidebarItemLabel</attribute>
+        <attribute name="label" type="string">SALibrarySidebarItemLabel</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">0</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM" idrefs="z148"></relationship>
+    </object>
+    <object type="SIDEBARITEM" id="z137">
+        <attribute name="synclabel" type="string">SAGroupsSidebarItemLabel</attribute>
+        <attribute name="label" type="string">SAGroupsSidebarItemLabel</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">1</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z138">
+        <attribute name="predicate" type="string">dateRemoved != nil</attribute>
+        <attribute name="synclabel" type="string">SATrashSidebarItemLabel</attribute>
+        <attribute name="label" type="string">SATrashSidebarItemLabel</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">4</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z139">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "sql" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">sql</attribute>
+        <attribute name="label" type="string">sql</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">23</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z140">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "ruby" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">ruby</attribute>
+        <attribute name="label" type="string">ruby</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">22</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z141">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "perl" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">perl</attribute>
+        <attribute name="label" type="string">perl</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">18</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z142">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "apple-script" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">apple-script</attribute>
+        <attribute name="label" type="string">apple-script</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">2</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z144">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "cpp" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">cpp</attribute>
+        <attribute name="label" type="string">cpp</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">7</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z145">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "c" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">c</attribute>
+        <attribute name="label" type="string">c</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">5</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z146">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "css" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">css</attribute>
+        <attribute name="label" type="string">css</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">8</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z147">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "objective-c" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">objective-c</attribute>
+        <attribute name="label" type="string">objective-c</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">16</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z148">
+        <attribute name="predicate" type="string">dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">SASnippetsSidebarItemLabel</attribute>
+        <attribute name="label" type="string">SASnippetsSidebarItemLabel</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">0</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z136"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z149">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "bash" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">bash</attribute>
+        <attribute name="label" type="string">bash</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">4</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z150">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "xslt" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">xslt</attribute>
+        <attribute name="label" type="string">xslt</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">26</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z151">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "xml" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">xml</attribute>
+        <attribute name="label" type="string">xml</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">25</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z152">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "actionscript" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">actionscript</attribute>
+        <attribute name="label" type="string">actionscript</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">0</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z153">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "javascript" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">javascript</attribute>
+        <attribute name="label" type="string">javascript</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">14</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z154">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "html" AND (dateRemoved == nil)</attribute>
+        <attribute name="synclabel" type="string">html</attribute>
+        <attribute name="label" type="string">html</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">12</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z155">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "python" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">python</attribute>
+        <attribute name="label" type="string">python</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">20</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z159">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "php" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">php</attribute>
+        <attribute name="label" type="string">php</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">17</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z160">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "plain-text" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">plain-text</attribute>
+        <attribute name="label" type="string">plain-text</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <attribute name="index" type="int64">19</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z161">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "java" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">java</attribute>
+        <attribute name="label" type="string">java</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">13</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z162">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "regexp" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">regexp</attribute>
+        <attribute name="label" type="string">regexp</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">21</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SYNCDRIVERSTATE" id="z185">
+        <attribute name="isinstalled" type="bool">1</attribute>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z186">
+        <attribute name="synclabel" type="string">ruby</attribute>
+        <attribute name="label" type="string">ruby</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">22</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z187">
+        <attribute name="synclabel" type="string">objective-c</attribute>
+        <attribute name="label" type="string">objective-c</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">16</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z260 z261"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z188">
+        <attribute name="synclabel" type="string">html</attribute>
+        <attribute name="label" type="string">html</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">12</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z189">
+        <attribute name="synclabel" type="string">perl</attribute>
+        <attribute name="label" type="string">perl</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">18</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z190">
+        <attribute name="synclabel" type="string">plain-text</attribute>
+        <attribute name="label" type="string">plain-text</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">1</attribute>
+        <attribute name="index" type="int64">19</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z191">
+        <attribute name="synclabel" type="string">xml</attribute>
+        <attribute name="label" type="string">xml</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">25</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z192">
+        <attribute name="synclabel" type="string">javascript</attribute>
+        <attribute name="label" type="string">javascript</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">14</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z193">
+        <attribute name="synclabel" type="string">css</attribute>
+        <attribute name="label" type="string">css</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">8</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z194">
+        <attribute name="synclabel" type="string">xslt</attribute>
+        <attribute name="label" type="string">xslt</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">26</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z195">
+        <attribute name="synclabel" type="string">sql</attribute>
+        <attribute name="label" type="string">sql</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">23</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z196">
+        <attribute name="synclabel" type="string">c</attribute>
+        <attribute name="label" type="string">c</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">5</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z197">
+        <attribute name="synclabel" type="string">cpp</attribute>
+        <attribute name="label" type="string">cpp</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">7</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z198">
+        <attribute name="synclabel" type="string">regexp</attribute>
+        <attribute name="label" type="string">regexp</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">21</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z199">
+        <attribute name="synclabel" type="string">actionscript</attribute>
+        <attribute name="label" type="string">actionscript</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">0</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z200">
+        <attribute name="synclabel" type="string">apple-script</attribute>
+        <attribute name="label" type="string">apple-script</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">2</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z201">
+        <attribute name="synclabel" type="string">php</attribute>
+        <attribute name="label" type="string">php</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">17</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z202">
+        <attribute name="synclabel" type="string">java</attribute>
+        <attribute name="label" type="string">java</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">13</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z203">
+        <attribute name="synclabel" type="string">bash</attribute>
+        <attribute name="label" type="string">bash</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">4</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z204">
+        <attribute name="synclabel" type="string">python</attribute>
+        <attribute name="label" type="string">python</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">20</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z205">
+        <attribute name="name" type="string">Authentication</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z206">
+        <attribute name="name" type="string">Terminal</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z207">
+        <attribute name="name" type="string">Automation</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z208">
+        <attribute name="name" type="string">Dispatch</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z209">
+        <attribute name="name" type="string">Software</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z210">
+        <attribute name="name" type="string">Tray</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z211">
+        <attribute name="name" type="string">DMG</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z212">
+        <attribute name="name" type="string">Server</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z213">
+        <attribute name="name" type="string">SMTP</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z214">
+        <attribute name="name" type="string">UI</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z215">
+        <attribute name="name" type="string">Gradient</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z216">
+        <attribute name="name" type="string">Web</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z217">
+        <attribute name="name" type="string">Benchmark</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z218">
+        <attribute name="name" type="string">Design</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z219">
+        <attribute name="name" type="string">Cell</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z220">
+        <attribute name="name" type="string">Starter</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z221">
+        <attribute name="name" type="string">Hotkey</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z222">
+        <attribute name="name" type="string">UIImage</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z223">
+        <attribute name="name" type="string">Cocoa</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z224">
+        <attribute name="name" type="string">Development</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z225">
+        <attribute name="name" type="string">Status</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z226">
+        <attribute name="name" type="string">iPhone</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z227">
+        <attribute name="name" type="string">Debug</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z228">
+        <attribute name="name" type="string">CocoaTouch</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z229">
+        <attribute name="name" type="string">GCD</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z230">
+        <attribute name="name" type="string">root</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="TAG" id="z231">
+        <attribute name="name" type="string">Django</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z234">
+        <attribute name="synclabel" type="string">lua</attribute>
+        <attribute name="label" type="string">lua</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">15</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z235">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "applescript-objc" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">applescript-objc</attribute>
+        <attribute name="label" type="string">applescript-objc</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">3</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z236">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "apache-conf" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">apache-conf</attribute>
+        <attribute name="label" type="string">apache-conf</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">1</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z237">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "lisp" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">lisp</attribute>
+        <attribute name="label" type="string">lisp</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">10</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z238">
+        <attribute name="synclabel" type="string">lisp</attribute>
+        <attribute name="label" type="string">lisp</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">10</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z239">
+        <attribute name="synclabel" type="string">vb</attribute>
+        <attribute name="label" type="string">vb</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">24</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z240">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "vb" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">vb</attribute>
+        <attribute name="label" type="string">vb</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">24</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z241">
+        <attribute name="synclabel" type="string">applescript-objc</attribute>
+        <attribute name="label" type="string">applescript-objc</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">3</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z242">
+        <attribute name="synclabel" type="string">cold-fusion</attribute>
+        <attribute name="label" type="string">cold-fusion</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">9</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z243">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "cold-fusion" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">cold-fusion</attribute>
+        <attribute name="label" type="string">cold-fusion</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">9</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z244">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "erlang" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">erlang</attribute>
+        <attribute name="label" type="string">erlang</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">11</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z245">
+        <attribute name="synclabel" type="string">erlang</attribute>
+        <attribute name="label" type="string">erlang</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">11</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z246">
+        <attribute name="synclabel" type="string">apache-conf</attribute>
+        <attribute name="label" type="string">apache-conf</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">1</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z247">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "cs" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">cs</attribute>
+        <attribute name="label" type="string">cs</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">6</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="SYNTAXHIGHLIGHT" id="z248">
+        <attribute name="synclabel" type="string">cs</attribute>
+        <attribute name="label" type="string">cs</attribute>
+        <attribute name="ishidden" type="bool">0</attribute>
+        <attribute name="isdefault" type="bool">0</attribute>
+        <attribute name="index" type="int64">6</attribute>
+        <relationship name="snippets" type="0/0" destination="SNIPPET"></relationship>
+    </object>
+    <object type="SMARTGROUP" id="z249">
+        <attribute name="predicate" type="string">syntaxHighlight.label == "lua" AND dateRemoved == nil</attribute>
+        <attribute name="synclabel" type="string">lua</attribute>
+        <attribute name="label" type="string">lua</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="index" type="int64">15</attribute>
+        <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z134"></relationship>
+        <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
+    </object>
+    <object type="MENUBARMANAGER" id="z259"></object>
+    <object type="SNIPPET" id="z260">
+        <attribute name="synclabel" type="string">92493279-3D49-46AC-9E73-B32661851B47-5807-0000175BCF7E4BEF</attribute>
+        <attribute name="name" type="string">Md5加密</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="datemodified" type="date">387448838.07320100069046020508</attribute>
+        <attribute name="dateadded" type="date">387447526.12486302852630615234</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z262"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z261">
+        <attribute name="synclabel" type="string">733D341E-2545-4C52-BD2D-0AD659261852-5807-0000176A35BB3F21</attribute>
+        <attribute name="name" type="string">版本控制</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="datemodified" type="date">387448868.88658601045608520508</attribute>
+        <attribute name="dateadded" type="date">387447587.96596902608871459961</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z263"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z262">
+        <attribute name="content" type="string">#define CC_MD5_DIGEST_LENGTH 16
+
+@implementation NSString(MD5)
+
++(NSString *)convertMD5:(NSString *)str{
+    const char *cStr = [str UTF8String];
+    unsigned char result[CC_MD5_DIGEST_LENGTH];
+    CC_MD5( cStr, strlen(cStr), result );
+    
+    NSMutableString *hash = [NSMutableString string];
+    for(int i=0;i\u3c00CC_MD5_DIGEST_LENGTH;i++)
+    {
+        [hash appendFormat:@"%02X",result[i]];
+    }
+    return [hash lowercaseString];
+}
+
+@end
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z260"></relationship>
+    </object>
+    <object type="CODE" id="z263">
+        <attribute name="content" type="string">/*
+ *  System Versioning Preprocessor Macros
+ */ 
+ 
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+ 
+/*
+ *  Usage
+ */ 
+ 
+if (SYSTEM_VERSION_LESS_THAN(@"4.0")) {
+    ...
+}
+ 
+if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"3.1.1")) {
+    ...
+}</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z261"></relationship>
+    </object>
+</database>
