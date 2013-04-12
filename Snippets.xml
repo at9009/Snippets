@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>40378CFC-90EB-4498-B017-9E86CC2AE28D</UUID>
-        <nextObjectID>265</nextObjectID>
+        <nextObjectID>267</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -86,7 +86,7 @@
     </databaseInfo>
     <object type="INDEXMANAGER" id="z127">
         <attribute name="synclabel" type="string">9D02B2A5-F0EC-4A94-A782-11B3C8C95B4F-82451-0001128FFDE5409E</attribute>
-        <attribute name="lastindex" type="int64">7</attribute>
+        <attribute name="lastindex" type="int64">8</attribute>
     </object>
     <object type="LICENSE" id="z128">
         <attribute name="label" type="string">gplv3</attribute>
@@ -380,7 +380,7 @@
         <attribute name="ishidden" type="bool">0</attribute>
         <attribute name="isdefault" type="bool">1</attribute>
         <attribute name="index" type="int64">19</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z264"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z264 z267"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z191">
         <attribute name="synclabel" type="string">xml</attribute>
@@ -830,5 +830,23 @@ if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"3.1.1")) {
     <object type="CODE" id="z265">
         <attribute name="content" type="string">dsadada</attribute>
         <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z264"></relationship>
+    </object>
+    <object type="CODE" id="z266">
+        <attribute name="content" type="string">dsadad</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z267"></relationship>
+    </object>
+    <object type="SNIPPET" id="z267">
+        <attribute name="synclabel" type="string">66554302-61D0-4235-A4A2-BA1B45723C0C-6728-00001D2A615B8BFA</attribute>
+        <attribute name="name" type="string">Snippet 8</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="datemodified" type="date">387453912.16178297996520996094</attribute>
+        <attribute name="dateadded" type="date">387453910.52940702438354492188</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z266"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z190"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
     </object>
 </database>
